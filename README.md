@@ -1,25 +1,23 @@
-# Microsoft-Security-Update-Monitor
-Automated n8n workflow to monitor Microsoft security updates and send Telegram alerts
-Microsoft Security Update Monitor
-An automated system designed to monitor the Microsoft Security Update Guide (MSRC) in real-time. This project uses n8n to fetch the latest security vulnerabilities, compare them with previous data to avoid duplicates, and send instant alerts via Telegram.
+ Microsoft Security Update Monitor
 
-🚀 Features
-Real-time Monitoring: Automated 24/7 tracking of Microsoft security releases.
+An automated system to track and notify critical Microsoft security vulnerabilities in real-time.
 
-API-Driven: Connects directly to the official Microsoft API for high accuracy.
+📂 Project Overview
+This project automates the process of checking the [Microsoft Security Update Guide API](https://api.msrc.microsoft.com/) to detect new security updates. It prevents manual tracking by sending instant alerts via Telegram.
 
-Duplicate Prevention: Uses logical filtering to ensure you only get notified about new updates.
+ 📷 Workflow Diagram
+![Project Workflow](images/workflow-diagram.png)
 
-Instant Alerts: Delivers updates directly to your Telegram chat.
+ 🚀 How to Implement
+1. **Import:** Download the `security-monitor.json` file from the `/workflow` folder.
+2. **Setup:** Import the JSON file into your n8n dashboard.
+3. **Configure:** Update the Telegram credentials (Bot Token and Chat ID) in the Telegram node.
+4. **Activate:** Toggle the "Active" switch to start the 24/7 monitoring.
 
-🛠️ How to use
-Download the security-monitor-bot.json file from this repository.
-
-Import the JSON file into your n8n instance.
-
-Configure your Telegram bot credentials (Token and Chat ID) in the Telegram node.
-
-Activate the workflow to start monitoring.
+ 🛠 Tech Stack
+- **Automation:** [n8n](https://n8n.io/)
+- **API:** Microsoft MSRC API
+- **Alerts:** Telegram Bot API
 
 👥 Authors                                                                                                                                                                     
 Batoul almahdi
