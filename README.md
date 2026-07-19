@@ -6,7 +6,7 @@ An automated system to track and notify critical Microsoft security vulnerabilit
 This project automates the process of checking the [Microsoft Security Update Guide API](https://api.msrc.microsoft.com/) to detect new security updates. It prevents manual tracking by sending instant alerts via Telegram.
 
  📷 Workflow Diagram
-![Project Workflow]([images/workflow-diagram.png](https://github.com/batoul0101/Microsoft-Security-Update-Monitor/blob/main/workflow11.png))
+https://github.com/batoul0101/Microsoft-Security-Update-Monitor/blob/main/workflow11.png
 
  🚀 How to Implement
 1. **Import:** Download the `security-monitor.json` file from the `/workflow` folder.
