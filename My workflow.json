@@ -105,7 +105,7 @@
     },
     {
       "parameters": {
-        "chatId": "853379668",
+        "chatId": "XXXXXXX",
         "text": "={{ $('HTTP Request').item.json.value[0].cveNumber }}",
         "additionalFields": {}
       },
